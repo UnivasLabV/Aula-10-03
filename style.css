@@ -1,0 +1,35 @@
+body{
+  background: gray;
+  text-align: center;  
+}
+
+ //tr, td, thead, th, tfoot{ 
+  border: 1px solid #900;
+  padding: 25px;
+}
+
+.colspan
+{ 
+	background-color:green; 
+	color:white; 
+  padding: 20px;
+}
+
+.rowspan
+{  
+  background-color:white;
+  color:green;
+  padding: 20px;
+}
+
+.tfoot
+{
+  background-color:blue;
+  color:red;
+  padding: 20px;
+}
+
+#myTable:hover .hightlight{
+  border: 1px solid #000;
+  background-color:red;
+}
